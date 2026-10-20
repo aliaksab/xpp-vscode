@@ -1,0 +1,8 @@
+src/**
+server/**
+!server/bin/XppVsCode.Server.exe
+!server/bin/XppVsCode.Server.exe.config
+node_modules/**
+tsconfig.json
+**/*.map
+.gitignore

@@ -1,0 +1,51 @@
+{
+  "name": "xpp-vscode",
+  "displayName": "X++ AI Companion for D365FO",
+  "description": "Dynamics 365 Finance & Operations X++ development tools for VS Code and AI agents.",
+  "version": "0.0.1",
+  "publisher": "nazmolla",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazmolla/xpp-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "AI"
+  ],
+  "os": [
+    "win32"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "xpp.mcp",
+        "label": "X++ (D365FO)"
+      }
+    ],
+    "commands": [
+      {
+        "command": "xpp.showEnvironment",
+        "title": "Show Active Environment",
+        "category": "X++"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -watch -p .",
+    "build:server": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-server.ps1",
+    "build": "npm run build:server && npm run compile",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.101.0",
+    "typescript": "^5.6.0"
+  }
+}
