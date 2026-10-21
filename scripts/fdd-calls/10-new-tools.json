@@ -1,0 +1,12 @@
+[
+  { "name": "xpp_get_environment", "arguments": {} },
+  { "name": "xpp_get_model_info", "arguments": { "modelName": "testcust" } },
+  { "name": "xpp_select_project", "arguments": {} },
+  { "name": "xpp_list_project_items", "arguments": {} },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SalesOrderHeaderV2Entity", "objectType": "AxDataEntityView", "exactMatch": true } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SalesClerk", "objectType": "AxSecurityRole" } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "Foo", "objectType": "AxNoSuchType" } },
+  { "name": "xpp_list_objects", "arguments": { "nameFilter": "SalesOrderHeaderCDS", "objectType": "AxDataEntityView" } },
+  { "name": "xpp_validate_object", "arguments": { "objectType": "AxTableExtension", "objectName": "SalesTable.testcust", "fields": [ { "name": "HSRemovalStatus", "enumType": "HSRemovalStatus" } ], "indexes": [ { "name": "HSRemovalStatusIdx" } ] } },
+  { "name": "xpp_build", "arguments": { "scope": "project" } }
+]

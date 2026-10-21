@@ -1,0 +1,1 @@
+[{ "name": "xpp_update_object", "arguments": { "objectType": "AxQuery", "objectName": "HSRemovalExceptions", "properties": { "Title": "Removal exceptions" } } }, { "name": "xpp_build", "arguments": { "scope": "project" } }]

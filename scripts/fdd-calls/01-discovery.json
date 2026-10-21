@@ -1,0 +1,12 @@
+[
+  { "name": "xpp_get_environment", "arguments": {} },
+  { "name": "xpp_get_model_info", "arguments": { "modelName": "testcust" } },
+  { "name": "xpp_list_model_objects", "arguments": { "modelName": "testcust" } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SubBillSchedule", "objectType": "AxTable", "maxResults": 10 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "AssetBook", "objectType": "AxTable", "maxResults": 10 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "BusinessEventsContract", "objectType": "AxClass", "maxResults": 5 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "TerminationReason", "objectType": "AxEnum", "maxResults": 10 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "TerminationReason", "objectType": "AxTable", "maxResults": 10 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SubBillParameters", "objectType": "AxTable", "maxResults": 5 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "AssetParameters", "objectType": "AxTable", "maxResults": 5 } }
+]

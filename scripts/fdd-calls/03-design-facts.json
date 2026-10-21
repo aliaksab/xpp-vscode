@@ -1,0 +1,12 @@
+[
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxEnum", "objectName": "SubBillScheduleStatus" } },
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxEnum", "objectName": "SubBillTerminationType" } },
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxEnum", "objectName": "AssetStatus" } },
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxTable", "objectName": "SubBillScheduleLine", "methodNames": ["terminate", "isTerminated"] } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "BusinessEventsBase", "objectType": "AxClass", "exactMatch": true } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "AssetProposalDepreciation", "objectType": "AxClass", "maxResults": 5 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "LedgerJournalCheckPost", "objectType": "AxClass", "exactMatch": true } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "PurchFormLetter", "objectType": "AxClass", "exactMatch": true } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SalesFormLetter", "objectType": "AxClass", "exactMatch": true } },
+  { "name": "xpp_find_references", "arguments": { "objectType": "AxTable", "objectName": "SubBillScheduleLine", "memberName": "terminate", "maxResults": 10 } }
+]

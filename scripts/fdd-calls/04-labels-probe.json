@@ -1,0 +1,7 @@
+[
+  { "name": "xpp_get_model_info", "arguments": { "modelName": "testcust" } },
+  { "name": "xpp_read_label", "arguments": { "labelFileId": "HSRemoval", "language": "en-US", "searchText": "removal" } },
+  { "name": "xpp_create_label", "arguments": { "labelFileId": "HSRemoval", "language": "en-US", "labelId": "HSRemovalStatus", "text": "Removal status" } },
+  { "name": "xpp_create_object", "arguments": { "objectType": "AxLabelFile", "objectName": "HSRemoval_en-US", "properties": { "LabelFileId": "HSRemoval", "Language": "en-US" } } },
+  { "name": "xpp_create_object", "arguments": { "objectType": "AxMenuExtension", "objectName": "AccountsReceivable.testcust" } }
+]

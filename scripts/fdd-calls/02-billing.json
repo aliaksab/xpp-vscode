@@ -1,0 +1,6 @@
+[
+  { "name": "xpp_find_object", "arguments": { "objectName": "SubBillScheduleTable", "objectType": "AxTable", "maxResults": 5 } },
+  { "name": "xpp_find_object", "arguments": { "objectName": "SubBillScheduleTable", "exactMatch": true } },
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxTable", "objectName": "SubBillScheduleLine" } },
+  { "name": "xpp_read_object", "arguments": { "objectType": "AxTable", "objectName": "AssetBook" } }
+]
